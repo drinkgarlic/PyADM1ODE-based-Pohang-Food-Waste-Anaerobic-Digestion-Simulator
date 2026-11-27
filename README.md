@@ -1,6 +1,6 @@
 # PyADM1ODE-based Pohang Food Waste Anaerobic Digestion Simulator
 
-This project models and simulates the anaerobic digestion process of food waste in Pohang City using the PyADM1ODE solver. 
+This project simulates the anaerobic digestion of food waste with the PyADM1ODE solver. The feedstock is the monthly composition of food waste collected in Pohang City. The digester itself is hypothetical (working volume 6,000 m³, feed 200 m³/d) and does not represent any existing facility.
 
 The `pohang_adm1_colab_v6_en.py` code included in this repository is the **English edition** of the v6 logic. It retains identical simulation logic but all comments, messages, and labels have been translated to English for broader accessibility.
 
@@ -47,7 +47,7 @@ You can control the simulation duration using the `RUN_MODE` setting at the top 
 
 ## Assumptions & Variables
 
-* **Digester Volume:** Working volume 6000 m³, Headspace 800 m³
+* **Digester Volume:** Working volume 6000 m³, Headspace 800 m³ (hypothetical digester)
 * **Temperature:** 35 °C (308.15 K)
 * **Feed Flow (Q_FEED):** 200 m³/d (YAML concentrations represent 1:9 diluted values)
 * **H2S Estimation Parameters:**
